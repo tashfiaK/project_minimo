@@ -60,6 +60,9 @@ header {
 .b_img img {
     width: 100%;
 }
+.h_550 {
+    height: 550px;
+}
 /* banner end */
 /* getaway start */
 .getaway {}
