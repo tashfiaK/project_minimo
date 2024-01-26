@@ -1,0 +1,239 @@
+/* common start */
+body {
+    margin: 0;
+    color: #626262;
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+/* common end */
+/* header start */
+header {
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.container {
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+    
+}
+.logo {
+    margin: 12px 0 0;
+    width: 12%;
+    float: left;
+}
+.logo a{}
+.logo a img {
+    width: 100%;
+}
+.menu {
+    
+}
+.menu ul{
+    float: right;
+}
+.menu ul li {
+    list-style: none;
+    float: left;
+}
+.menu ul li a {
+    margin: 0 30px;
+    color:#626262;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .33s;
+    border-bottom: 1px solid transparent;
+}
+.menu ul li a:last-child {
+    margin-right: 0;
+}
+.menu ul li a:hover {
+    border-bottom: 1px solid #626262;
+}
+/* header end */
+/* banner start */
+.banner{
+}
+.b_img {}
+.b_img img {
+    width: 100%;
+}
+/* banner end */
+/* getaway start */
+.getaway {}
+.container2 {
+    width: 80%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+.g_content {
+    padding: 90px 0 25px;
+}
+.c_light {
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+}
+.c_title {
+    margin: 20px 0 30px;
+    font-weight: 400;
+}
+.c_text {}
+.m_40 {
+    margin-top: 40px;
+}
+/* blog1 start */
+.blog1 {
+    padding-bottom: 90px;
+}
+.b_content {
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+.blog_item {
+    margin-top: 65px;
+    float: left;
+    width: 46%;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+}
+.blog_item:nth-child(even) {
+    margin-left: 8%;
+}
+.mt_30 {
+    margin-top: 30px;
+}
+/* blog1 end */
+/* news start */
+.news {
+    padding: 70px 0;
+    background-color: #efefef;
+}
+.signup {
+    text-align: center;
+}
+.s_h1 {
+    margin:0 0 65px;
+    color: #333333;
+}
+.s_form {
+    position: relative;
+    margin: 0 auto;
+    width: 400px;
+    /* border: 2px solid red; */
+}
+.s_form input {
+    padding: 0 45px 0 5px;
+    width: 345px;
+    height: 45px;
+    font-size: 14px;
+    color: #626262;
+    font-weight: 400;
+    font-family: "Playfair Display";
+    border: none;
+    border-bottom: 1px solid #333333;
+    background-color: transparent;
+}
+.s_form input:focus {
+    outline: 0;
+}
+.s_form button {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    top: 15px;
+    right: 0;
+}
+.s_form button:focus {
+    outline: 0;
+}
+.s_form button img {
+    
+    
+}
+/* blog2 start */
+.blog2 {
+    padding-top: 25px;
+}
+/* blog2 end */
+/* button start */
+.button {
+    padding: 60px 0 120px;
+    text-align: center;
+}
+.btn {
+    /* padding: 13px 20px; */
+    width: 158px;
+    height: 54px;
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    border: 2px solid #626262;
+    background-color: transparent;
+    border-radius: none;
+}
+.btn:hover {
+    background-color: #efefef;
+}
+/* button end */
+/* footer start */
+footer {
+    padding: 20px 0 25px;
+    background-color: #efefef;
+}
+.f_content {
+    overflow: hidden;
+}
+.pages {
+    float: left;
+}
+.pages ul {
+    padding-left: 0;
+    float: left;
+}
+.pages ul li {
+    margin-right: 12px;
+    list-style: none;
+    float: left;
+}
+.pages ul li a {
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    border-bottom: 1px solid transparent;
+    transition: .33s;
+}
+.pages ul li a:hover {
+    border-bottom: 1px solid #000000;
+} 
+.social {
+    float: right;
+}
+.social ul {
+}
+.social ul li{
+    float: left;
+    margin-right: 15px;
+    list-style: none;
+}
+.social ul li span {
+    padding: 0;
+}
+.social ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    border-bottom: 1px solid transparent;
+    transition: .33s;
+}
+.social ul li:last-child {
+    margin-right: 0;
+}
+.social ul li a:hover {
+    border-bottom: 1px solid #000000;
+} 
+/* footer end */
